@@ -7,7 +7,7 @@ from chatbot.document_handler import DocumentHandler
 from chatbot.llm_handler import LLMHandler
 from chatbot.chat_manager import ChatManager
 
-st.set_page_config(page_title="📚 ASKIfy AI", layout="wide")
+st.set_page_config(page_title="📚 ASKfy AI", layout="wide")
 
 
 # Initialize handlers
