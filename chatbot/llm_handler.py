@@ -1,34 +1,6 @@
-# import streamlit as st
-# from langchain_google_genai import ChatGoogleGenerativeAI
-# from langchain_huggingface import HuggingFaceEndpoint
-# from config import Config
 
-# class LLMHandler:
-#     """Initializes Gemini or Hugging Face model."""
-#     def __init__(self):
-#         self.config = Config()
-#         self.model = self._initialize_model()
-
-#     def _initialize_model(self):
-#         try:
-#             if self.config.model_provider == "gemini":
-#                 return ChatGoogleGenerativeAI(
-#                     model="gemini-1.5-flash",
-#                     google_api_key=self.config.gemini_key
-#                 )
-#             else:
-#                 return HuggingFaceEndpoint(
-#                     repo_id="mistralai/Mistral-7B-Instruct-v0.3",
-#                     huggingfacehub_api_token=self.config.hf_token
-#                 )
-#         except Exception as e:
-#             st.error(f"Failed to initialize model: {str(e)}")
-#             st.stop()
-
-#     def get_model(self):
-#         return self.model
     
-    
+
     
 import streamlit as st
 from .config import Config
