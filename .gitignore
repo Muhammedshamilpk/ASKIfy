@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.DS_Store
+
+# --- Environments ---
+.env
+venv/
+env/
+envir/
+*.env
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- Cache and temp files ---
+.cache/
+temp/
+tmp/
+*.bak
+
+# --- Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Data and FAISS indexes ---
+docs/
+*.faiss
+*.pkl
+*.db
+*.json
+
+# --- OS ---
+Thumbs.db
+.DS_Store
