@@ -1,5 +1,5 @@
 # 🧠 ASKfy -Turn your file into friendly chat ! 🧑‍💻
-Using gemini, Hugging Face, FAISS, and LangChain
+Using Gemini, Hugging Face, FAISS, and LangChain
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 🎯 Project Objective
@@ -7,7 +7,7 @@ Using gemini, Hugging Face, FAISS, and LangChain
 This project is a Streamlit-based AI chatbot that allows users to chat with their uploaded documents (PDF or TXT).
 
 
-It integrates LangChain, FAISS, and LLMs (groq or Hugging Face) to provide contextual, intelligent answers based on document content.
+It integrates LangChain, FAISS, and LLMs (gemini or Hugging Face) to provide contextual, intelligent answers based on document content.
 
 
 
@@ -20,7 +20,7 @@ It integrates LangChain, FAISS, and LLMs (groq or Hugging Face) to provide conte
 
 ▪Integrate LangChain for Retrieval-Augmented Generation (RAG)
 
-▪Use Groq or Hugging Face models for conversational AI
+▪Use Gemini or Hugging Face models for conversational AI
 
 ▪Implement FAISS for efficient semantic retrieval
 
@@ -56,7 +56,7 @@ It integrates LangChain, FAISS, and LLMs (groq or Hugging Face) to provide conte
 
 
 
-Doc-Chat/
+ASKfy/
 │
 
 ├── app.py                     # Main Streamlit app (entry point)
@@ -99,7 +99,9 @@ Doc-Chat/
 🔹 Step 2: Create .env File
 
 
--->MODEL_PROVIDER=groq     # or huggingface
+-->MODEL_PROVIDER=gemini     # or huggingface
+
+
 -->GEMINI_API_KEY=your_gemini_key
 
 
